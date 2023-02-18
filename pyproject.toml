@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cursoml"
+version = "0.1.0"
+description = ""
+authors = ["Aitor Corchero Rodríguez <aitorcorchero@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+jupyter = "^1.0.0"
+urllib3 = "^1.26.13"
+xlrd = "^2.0.1"
+openpyxl = "^3.0.10"
+matplotlib = "^3.6.2"
+scikit-learn = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
